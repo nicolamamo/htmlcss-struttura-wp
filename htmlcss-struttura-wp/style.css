@@ -1,0 +1,110 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTz81WOviJVhizvOvwsRNgJBL0TKXpIHrZPT0y4KoyxFNzVk4yH);
+}
+
+#page-wrapper {width:1000px;
+margin: auto;
+}
+
+
+
+
+#page-contenent::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+#monti{
+    height: 100px;
+width: 100px;
+}
+
+header h1
+{
+text-align: center;
+color: white;
+text-transform: uppercase;
+}
+
+.header-top{
+    height:250px;
+background-image: url(https://lh3.googleusercontent.com/proxy/090j3ZoKFzx6hkA_RD5nBXkJjEgWsZeLoK5T9zUF2rX-lVDrg8btFIG1IGFkrpsCszUtb1B-AY0oOxBG166nfs7O4TsTSeaGIJI);
+background-size: cover;
+position: relative;
+border: solid white 10px;
+margin-top: 20px;
+}
+
+
+.header-bottom{height: 60px;
+background-color: lightgrey;}
+
+
+nav{text-align: center;}
+
+
+
+
+#menu{list-style-type: none;
+display: inline-block;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu li a {color: #999;
+text-transform: uppercase;
+text-decoration: none;
+line-height: 60px;
+padding: 0 10;
+height: 60px;
+display: inline-block;
+}
+
+#menu::after{content: '';
+clear: both;
+display: table;}
+
+.box-header{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: : 50%;
+    margin-top: 50px;
+
+
+}
+#monti{
+height: 100px;
+width: 100px;
+}
+.quadro{
+background-color: white;
+height: 200px;
+border-radius: 2px;
+
+}
+footer{
+height:100px;
+background-color: blue;
+}
+
+aside{
+width: 15%;
+float: left;
+background-color: purple;
+}
+
+main{
+    width: 70%;
+    float: left;
+    background-color: lightcoral;
+}
